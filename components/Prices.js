@@ -5,7 +5,17 @@ class Prices extends React.Component {
     currency: "USD",
   };
   render() {
-    return <div>Prices Bro</div>;
+    return (
+      <div>
+        <ul>
+          <li>
+            Bitcoin rate for {this.props.bpi.USD.description}{" "}
+            <span>{this.props.bpi.USD.code}</span>{" "}
+            <strong>{this.props.bpi.USD.rate}</strong>
+          </li>
+        </ul>
+      </div>
+    );
   }
 }
 
