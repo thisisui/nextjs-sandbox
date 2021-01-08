@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 var About = () => (
-  <div>
-    <Navbar />
+  <Layout>
     <h1>About Bits</h1>
     <p>Application about bits.</p>
-  </div>
+  </Layout>
 );
 
 export default About;
